@@ -10,7 +10,6 @@ namespace WebApi2.Entities
     {
         public ApiDbContext(DbContextOptions options) : base(options)
         { }
-        public DbSet<UserLogin> UserLogins { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<PhoneNumber> phoneNumbers { get; set; }
